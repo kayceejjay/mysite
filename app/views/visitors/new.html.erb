@@ -1,0 +1,25 @@
+
+      <%= form_for(@visitor) do |f| %>
+            <%= render 'layouts/error_messages', object: f.object %>
+      
+            <%= f.label 'First Name' %>
+            <%= f.text_field :fname, class: 'form-control' %>
+      
+            <%= f.label 'Last Name' %>
+            <%= f.text_field :lname, class: 'form-control' %>
+      
+            <%= f.label :phone %>
+            <%= f.text_field :phone, class: 'form-control' %>
+            
+            <%= f.label 'Email Address' %>
+            <%= f.text_field :email, class: 'form-control' %>
+            <br>
+            <%- #interest_type = [ -%>
+            <div class="field">
+                <%= f.label 'I am interested in:' %><br />
+                <%= f.select :interest, options_for_select([[" ",'None'],['Web application','Development'],['Website','Design'],['Free consultation','Consultation']
+      ]) %>
+            </div><!-- field -->
+            <br>
+            <%= f.submit 'Submit', class: "btn btn-primary" %>
+      <% end %>
