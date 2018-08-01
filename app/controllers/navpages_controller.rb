@@ -25,4 +25,5 @@ class NavpagesController < ApplicationController
   
   def services
   end
+  
 end

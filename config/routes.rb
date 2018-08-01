@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
-  
-  root to: 'navpages#index', as: 'welcome'
 
+# Page Navigation  
+  root to: 'navpages#index', as: 'welcome'
+  
   get '/about', to: 'navpages#about', as: 'about'
 
   get '/contact', to: 'navpages#contact', as: 'contact'
@@ -18,7 +19,12 @@ Rails.application.routes.draw do
   
   get '/services/consult', to: 'navpages#consult', as: 'consult'
   
-  resources :visitors
-
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+# Visitors
+  get '/reqinfo', to: 'visitors#new'
+  
+  post '/reqinfo', to: 'visitors#create'
+  
+  resources :visitors, except: [:show, :edit, :update]
+  
+# For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

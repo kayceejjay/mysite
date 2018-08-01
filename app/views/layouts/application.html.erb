@@ -8,11 +8,8 @@
   </head>
   <body>
     <%= render 'layouts/header' %>
-    <div class="container">
-      <%- # render 'navpages/index' -%>
-      <%= yield %>
-      <%= render 'layouts/footer' %><!--debug window-->
-      <%= debug(params) if Rails.env.development? %>
-    </div>
+    <%= yield %>
+    <%= render 'layouts/footer' %><!--debug window-->
+    <%= debug(params) if Rails.env.development? %>
   </body>
 </html>
