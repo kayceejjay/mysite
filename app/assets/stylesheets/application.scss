@@ -14,6 +14,22 @@
 //  *= require_self
 //  */
 
+/* Styling */
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import url('https://fonts.googleapis.com/css?family=Arvo:400,700|Black+Han+Sans|Cookie|Cute+Font|Do+Hyeon|Fjalla+One|Gaegu:300,400,700|Gamja+Flower|Great+Vibes|Gugi|Roboto|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700|Bad+Script|Belleza|Bitter|Black+Han+Sans|Calligraffitti|Caveat|Clicker+Script|Cookie|Cute+Font|Dhurjati|Do+Hyeon|Fjalla+One|Gaegu:300,400,700|Gamja+Flower|Great+Vibes|Gugi|Roboto|Satisfy');
+
+@font-face {
+	font-family: "Handel Gothic";
+	src:url('/assets/Handel Gothic');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Milkshake";
+	src:url('/assets/Milkshake');
+	font-weight: normal;
+	font-style: normal;
+}

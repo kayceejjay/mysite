@@ -1,11 +1,8 @@
 class NavpagesController < ApplicationController
-  def about
+  def history
   end
   
   def contact
-  end
-  
-  def consult
   end
   
   def design
@@ -13,10 +10,7 @@ class NavpagesController < ApplicationController
   
   def develop
   end
-  
-  def help
-  end
-  
+
   def index
   end
   

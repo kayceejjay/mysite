@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
 
-# Page Navigation  
+# Page Navigation
   root to: 'navpages#index', as: 'welcome'
   
-  get '/about', to: 'navpages#about', as: 'about'
+  get '/history', to: 'navpages#history', as: 'history'
 
   get '/contact', to: 'navpages#contact', as: 'contact'
 

@@ -1,4 +1,6 @@
 <% provide(:title, 'All Visitors') %>
-<h1>Visitors</h1>
+<div class="visitor-container">
+    <h3>Thanks for your inquiry. You will receive a response shortly.</h3>
+    <div id="vcount"><%= "Visitors: #{Visitor.count}" %></div>
+</div><!-- visitor-container -->
 
-<%= Visitor.count %>
