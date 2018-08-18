@@ -7,10 +7,14 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
+# Use dotenv for environment variables
+gem 'dotenv-rails', require: 'dotenv/rails-now'
+
 # Use PostSQL as the database for Active Record compatible with Heroku
 gem 'pg'
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+gem 'puma'
+
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'sass-rails', '~> 5.0'
