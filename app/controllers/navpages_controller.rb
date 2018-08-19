@@ -1,4 +1,7 @@
 class NavpagesController < ApplicationController
+  def index
+  end
+
   def history
   end
   
@@ -11,9 +14,6 @@ class NavpagesController < ApplicationController
   def develop
   end
 
-  def index
-  end
-  
   def news
   end
   
