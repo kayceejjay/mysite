@@ -13,7 +13,7 @@ gem 'dotenv-rails', require: 'dotenv/rails-now'
 # Use PostSQL as the database for Active Record compatible with Heroku
 gem 'pg'
 # Use Puma as the app server
-gem 'puma'
+gem 'puma','>= 3.1.0'
 
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.7'
