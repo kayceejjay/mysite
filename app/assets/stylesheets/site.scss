@@ -26,7 +26,7 @@ $medium-light-grey: #e6e6e6;
 
 body {
   padding-top: 20px;
-  background-image: url("Brooklyn Bridge Under Construction 1883.png");
+  background-image: image-url("Brooklyn-Bridge-Under-Construction-1883.png");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -99,7 +99,7 @@ h2 {
 }
 
 #motto {
-  font-family: 'Milkshake', cursive;  
+  font-family: "Milkshake", cursive;  
   font-size: 2.25em;
   color: black;
   text-align: center;
@@ -107,7 +107,7 @@ h2 {
 
 h3 {
     
-    font-family: 'Bitter', sans serif;
+    font-family: "Bitter", sans-serif;
     font-size: 2em;
     color: black;
     text-align: center;
@@ -127,7 +127,7 @@ p {
 #logo {
   float: left;
   margin-right: 10px;
-  font-family: "Handel Gothic";
+  font-family: "Handel Gothic", "Geneva", sans-serif !important;
   font-size: 1.7em;
   color: white;
   text-transform: uppercase;
