@@ -1,4 +1,9 @@
 class NavpagesController < ApplicationController
+
+  def favicon
+    send_file 'public/favicon.ico', type: 'image/x-icon', disposition: 'inline'
+  end
+  
   def index
   end
 
